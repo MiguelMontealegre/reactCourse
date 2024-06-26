@@ -2,6 +2,7 @@ import "./index.css";
 
 import App from "./App.jsx";
 import Interview from "./interview/Interview";
+import InterviewAdvanced from "./interview-advanced/InterviewAdvanced";
 import InterviewPro from "./interview-pro/InterviewPro";
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -31,6 +32,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
     // <Interview />
  
-    <InterviewPro />
+    // <InterviewPro />
+
+
+     <InterviewAdvanced />
 
 );
